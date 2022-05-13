@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Lab 1</title>
+</head>
+<body>
+    <div class="navbar">
+           
+        <ul>
+            <li><img src="https://www.pngall.com/wp-content/uploads/2/H-Letter-PNG-Photo.png" width="50px" alt=""></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="tags.html">Text Tags</a></li>
+            <li><a href="tables.html">Table</a></li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="links.html">Links</a></li>
+        </ul>
+    </div>
+
+    <fieldset style="width:47%;margin: 0 auto 30px auto;">
+        <legend><h2 style="color: rgb(240, 217, 6);">Form</h2></legend>
+        <form method="post">
+            <div>
+                <table style="display: flex; flex-wrap: wrap;">
+                    <tr>
+                        <td>
+                            <label>First Name: <br /></label>
+                            <input type="text" name="fname" placeholder="Enter First Name" size="25" required maxlength="30"><br /><br />
+                        </td>
+                        <td>
+                            <label>Last Name: <br /></label>
+                            <input type="text" name="lname" placeholder="Enter Last Name" size="25" required maxlength="30"><br /><br />
+                        </td>
+                    </tr>
+                </table>
+        </div>
+        <label>How did you hear about us?</label>
+        <select style="width:200px;" class="dropdown">
+            <option value="Select your option">Select your option</option>
+            <option value="Recommended by a friend">Recommended by a friend</option>
+        <option value="From our facebook post">From our facebook post</option>
+    <option value="Lives near our institute">Lives near our institute</option></select><br /><br />
+        <label>Would you like to visit again?</label>
+        <input type="radio" name="review" >Yes
+        <input type="radio" name="review">No
+        <input type="radio" name="review">Maybe <br /><br />
+
+        <label>Comments:</label><br />
+        <textarea name="comment" cols="32" rows="4" placeholder="Enter your comments here..."></textarea><br /><br />
+        <label>Documents:</label><br />
+        <input type="file"><br /><br />
+        <input type="checkbox" >
+        <label>Sign me up for email updates</label><br /><br />
+        <input style="background-color: green; color: white;" type="submit" value="Submit">
+        <input style="background-color: orangered; color: white;" type="reset" value="Reset">
+    </form>
+        </fieldset>
+   
+<div class="footer">
+    <ul>
+        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+        <li><a href=""><i class="fab fa-github"></i></a></li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+}
+/*=============================== NAVBAR =============================== */
+.navbar{
+    background-color: rgb(39, 39, 39);
+    padding: 5px 10px; 
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.navbar ul img{
+    padding-right: 30px;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+.navbar ul a:hover{
+    color: rgb(240, 217, 6);
+}
+/*=============================== FOOTER =============================== */
+.footer ul{
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    list-style: none;
+    margin: 0;
+}
+.footer ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+.footer ul li{
+    margin-right: 20px;
+}
+.footer{
+    background-color: rgb(39, 39, 39);
+    padding: 10px 0px;
+}
+/*=============================== FRONT =============================== */
+
+.front{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding: 20px;
+   
+}
+.front div{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.me{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 30px;
+    font-family: cursive;
+}
+.me>h1>span{
+    color: rgb(39, 39, 39);
+    font-style: italic;
+  font-size: 0.8em;
+}
+.front>div>img{
+    width: 200px;
+    height: 200px;
+}
+/*=============================== TASK =============================== */
+.task{
+    width:65%;
+    margin: 0 auto 30px auto;
+    font-family: cursive;
+    box-shadow: 0px 6px rgba(0, 0, 0, 0.2);
+}
+.task h2{
+    margin: 0;
+}
+
+/*=============================== Gallery =============================== */
+.divs{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0 0 10px 0;
+}
+
+/*=============================== About ME =============================== */
+.about-me{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    grid-gap: 20px;
+    padding: 30px;
+   
+   
+}
+.about-me > div{
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-me > div span{
+    font-size: 10px;
+   color: rgb(98, 96, 96);
+}
+.about-me>div>figure>img{
+    height: 180px;
+    padding: 10px;
+}
+.social{
+    display: flex;
+    font-size: 40px;
+    width: 100%;
+    justify-content:space-evenly;
+    padding-bottom: 20px;
+
+}
+.fb>a:visited,.fb:active{
+    color: rgb(240, 217, 6);
+
+}.tw>a:visited,.tw:active{
+    color: rgb(240, 217, 6);
+
+}.insta>a:visited,.insta:active{
+    color: rgb(240, 217, 6);
+
+}.ld>a:visited,.ld:active{
+    color: rgb(240, 217, 6);
+
+}

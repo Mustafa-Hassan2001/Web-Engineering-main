@@ -1,0 +1,22 @@
+
+.detail{
+    color: maroon;
+}
+.pdetail{
+    color: hsla(39, 100%, 44%, 1);
+}
+h1,ul b{
+    color: rgb(10, 10, 112);
+}
+h3{
+    color: hsl(115, 71%, 17%);
+}
+abbr,a{
+    text-decoration: unset;
+}
+em, a{
+    color: #4F187A;
+}
+.cv{
+    margin: 20px;
+}

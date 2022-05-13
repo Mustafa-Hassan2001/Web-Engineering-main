@@ -1,0 +1,10 @@
+.categories{
+display: flex;
+justify-content: space-around;
+margin: 10px 0 20px 0;
+list-style: none;
+flex-wrap: wrap;
+}
+.animal{
+    margin: 10px;
+}
